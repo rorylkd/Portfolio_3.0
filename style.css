@@ -1,60 +1,92 @@
-.profilepic {
-    height: 150px;
-    width: 170px;
-    border-radius: 50%;
-    border-style: solid;
-}
-
 body {
     background-image: 
     url(assets/background.jpg);
 }
 
 .sectionOneImage {
-    width: 700px;
+    width: 1000px;
     height: auto;
 }
 .sectionTwoImage {
-    width: 700px;
+    width: 1000px;
     height: auto;
 }
 .sectionThreeImage {
-    width: 700px;
+    width: 1000px;
     height: auto;
 }
  
 .container {
     display: grid;
-    grid-template-columns: [c1] 25% [c2] 25% [c3] 50% [c4];
-    grid-template-rows: [r1] 25% [r2] 25% [r3] 50% [r4];
+    grid-template-columns: [c1] 100% [c2];
+    grid-template-rows: [r1] 600px [r2] 500px [r3] 500px [r4] 500px [r5];
     column-gap: 25px;
     row-gap: 25px;
 }
 
 .aboutMe {
     grid-column-start: c1;
-    grid-column-end: c3;
+    grid-column-end: c2;
     grid-row-start: r1;
-    grid-row-end: r3;
+    grid-row-end: r2;
 }
 
 .sectionOne {
-    grid-column-start: c3;
-    grid-column-end: c4;
-    grid-row-start: r1;
+    grid-column-start: c1;
+    grid-column-end: c2;
+    grid-row-start: r2;
     grid-row-end: r3;
 }
 
 .sectionTwo {
     grid-column-start: c1;
-    grid-column-end: c3;
+    grid-column-end: c2;
     grid-row-start: r3;
     grid-row-end: r4;
 }
 
 .sectionThree {
-    grid-column-start: c3;
-    grid-column-end: c4;
-    grid-row-start: r3;
-    grid-row-end: r4;
+    grid-column-start: c1;
+    grid-column-end: c2;
+    grid-row-start: r4;
+    grid-row-end: r5;
+}
+
+.twitterIcon{
+    width: 50px;
+    height: auto;
+}
+.githubIcon {
+    width: 50px;
+    height: auto;
+}
+.emailIcon {
+    width: 50px;
+    height: auto;
+}
+.linkedInIcon {
+    width: 50px;
+    height: auto;
+}
+
+.name {
+    display: flex;
+    font-family:monospace;
+    font-size: 50px;
+    color: white;
+    justify-content: center;
+}
+
+.profilepic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 170px;
+    border-radius: 50%;
+    border-style: solid;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-evenly;
 }

@@ -1,0 +1,60 @@
+.profilepic {
+    height: 150px;
+    width: 170px;
+    border-radius: 50%;
+    border-style: solid;
+}
+
+body {
+    background-image: 
+    url(assets/background.jpg);
+}
+
+.sectionOneImage {
+    width: 300px;
+    height: auto;
+}
+.sectionTwoImage {
+    width: 300px;
+    height: auto;
+}
+.sectionThreeImage {
+    width: 300px;
+    height: auto;
+}
+ 
+.container {
+    display: grid;
+    grid-template-columns: [c1] 25% [c2] 25% [c3] 50% [c4];
+    grid-template-rows: [r1] 25% [r2] 25% [r3] 50% [r4];
+    column-gap: 25px;
+    row-gap: 25px;
+}
+
+.aboutMe {
+    grid-column-start: c1;
+    grid-column-end: c3;
+    grid-row-start: r1;
+    grid-row-end: r3;
+}
+
+.sectionOne {
+    grid-column-start: c3;
+    grid-column-end: c4;
+    grid-row-start: r1;
+    grid-row-end: r3;
+}
+
+.sectionTwo {
+    grid-column-start: c1;
+    grid-column-end: c3;
+    grid-row-start: r3;
+    grid-row-end: r4;
+}
+
+.sectionThree {
+    grid-column-start: c3;
+    grid-column-end: c4;
+    grid-row-start: r3;
+    grid-row-end: r4;
+}

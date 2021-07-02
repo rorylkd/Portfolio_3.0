@@ -125,6 +125,8 @@ a {
     margin-bottom: 25px;
     background-color: white;
     border-radius: 25%;
+    border-style: solid;
+    border-color: white;
 }
 
 .resumeLink {

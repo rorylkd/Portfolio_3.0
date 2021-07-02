@@ -27,8 +27,7 @@ a {
 .container {
     display: grid;
     grid-template-columns: [c1] 100% [c2];
-    grid-template-rows: [r1] 600px [r2] 500px [r3] 500px [r4] 500px [r5] 100px [r6];
-    column-gap: 25px;
+    grid-template-rows: [r1] 300px [r2] 500px [r3] 500px [r4] 500px [r5] 100px [r6];
     row-gap: 300px;
 }
 
@@ -105,7 +104,8 @@ a {
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
-    font-size: 100px;
+    font-size: 50px;
+    margin-left: 25px;
     color: rgb(255, 255, 255);
 }
 

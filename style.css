@@ -6,14 +6,38 @@ body {
 .sectionOneImage {
     width: 1000px;
     height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
+.sectionOneImage:hover {
+    transform: scale(1.1);
+    transition: all .5s ease-in-out;
+}
+
 .sectionTwoImage {
     width: 1000px;
     height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.sectionTwoImage:hover {
+    transform: scale(1.1);
+    transition: all .5s ease-in-out;
 }
 .sectionThreeImage {
     width: 1000px;
     height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 100px;
+}
+.sectionThreeImage:hover {
+    transform: scale(1.1);
+    transition: all .5s ease-in-out;
 }
  
 .container {
@@ -56,17 +80,33 @@ body {
     width: 50px;
     height: auto;
 }
+.twitterIcon:hover {
+    transform: scale(1.2);
+    transition: all .2s ease-in-out;
+}
 .githubIcon {
     width: 50px;
     height: auto;
+}
+.githubIcon:hover {
+    transform: scale(1.2);
+    transition: all .2s ease-in-out;
 }
 .emailIcon {
     width: 50px;
     height: auto;
 }
+.emailIcon:hover {
+    transform: scale(1.2);
+    transition: all .2s ease-in-out;
+}
 .linkedInIcon {
     width: 50px;
     height: auto;
+}
+.linkedInIcon:hover {
+    transform: scale(1.2);
+    transition: all .2s ease-in-out;
 }
 
 .name {
@@ -97,4 +137,10 @@ body {
     justify-content: center;
     margin-top: 50px;
 
+}
+
+.sectionTitle {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
 }

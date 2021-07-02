@@ -27,9 +27,9 @@ a {
 .container {
     display: grid;
     grid-template-columns: [c1] 100% [c2];
-    grid-template-rows: [r1] 600px [r2] 500px [r3] 500px [r4] 500px [r5] 50px [r6];
+    grid-template-rows: [r1] 600px [r2] 500px [r3] 500px [r4] 500px [r5] 100px [r6];
     column-gap: 25px;
-    row-gap: 200px;
+    row-gap: 250px;
 }
 
 .aboutMe {
@@ -97,6 +97,7 @@ a {
     display: flex;
     justify-content: center;
     margin-top: 50px;
+    font-family: monospace;
 
 }
 
@@ -105,5 +106,14 @@ a {
     justify-content: center;
     margin-bottom: 50px;
     font-size: 100px;
-    color: white;
+    color: rgb(0, 0, 0);
+}
+
+.githubLink {
+    width: 50px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
 }

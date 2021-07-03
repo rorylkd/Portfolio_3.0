@@ -121,3 +121,8 @@ a {
     border-style: solid;
     border-color: white;
 }
+
+.githubLink:hover {
+    transform: scale(1.2);
+    transition: all .2s ease-in-out;
+}

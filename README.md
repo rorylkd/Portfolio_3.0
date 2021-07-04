@@ -20,3 +20,11 @@ Screenshot #1:
 
 - HTML
 - CSS
+
+
+## References
+
+Background photo by [Norris Niman](https://unsplash.com/@norrisniman?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText") on [Unsplash](https://unsplash.com/s/photos/minimalist-fractal?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+
+Icons made by <https://www.freepik.com> from <https://www.flaticon.com/>
+
